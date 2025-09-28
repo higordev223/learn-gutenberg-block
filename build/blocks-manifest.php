@@ -44,6 +44,14 @@ return array(
 			'enableTopCurve' => array(
 				'type' => 'boolean',
 				'default' => true
+			),
+			'topWidth' => array(
+				'type' => 'number',
+				'default' => 100
+			),
+			'topHeight' => array(
+				'type' => 'number',
+				'default' => 100
 			)
 		),
 		'textdomain' => 'blockylicious',
