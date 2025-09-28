@@ -17,11 +17,30 @@ return array(
 			'html' => false,
 			'color' => array(
 				'background' => true,
-				'link' => false,
-				'text' => false
+				'link' => true,
+				'text' => true
+			),
+			'spacing' => array(
+				'padding' => true
 			)
 		),
 		'attributes' => array(
+			'style' => array(
+				'type' => 'object',
+				'default' => array(
+					'color' => array(
+						'background' => '#ec4899'
+					),
+					'spacing' => array(
+						'padding' => array(
+							'top' => '80px',
+							'right' => '80px',
+							'bottom' => '50px',
+							'left' => '50px'
+						)
+					)
+				)
+			),
 			'enableTopCurve' => array(
 				'type' => 'boolean',
 				'default' => true
