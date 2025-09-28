@@ -36,6 +36,8 @@ import { Curve } from "./components/curve";
 export default function Edit(props) {
 	console.log({ props });
 	const { className, ...blockProps } = useBlockProps();
+	console.log(className);
+
 	return (
 		<>
 			<section className={`${className} alignfull`} {...blockProps}>

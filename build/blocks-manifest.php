@@ -14,7 +14,12 @@ return array(
 			
 		),
 		'supports' => array(
-			'html' => false
+			'html' => false,
+			'color' => array(
+				'background' => true,
+				'link' => false,
+				'text' => false
+			)
 		),
 		'attributes' => array(
 			'enableTopCurve' => array(
