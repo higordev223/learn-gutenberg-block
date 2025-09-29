@@ -1,9 +1,25 @@
-export const Curve = () => {
+export const Curve = (props) => {
 	return (
-		<div>
+		<div
+			style={{
+				position: "absolute",
+				top: 0,
+				left: 0,
+				width: "100%",
+				overflow: "hidden",
+				height: props.height,
+			}}
+		>
 			<svg
 				viewBox="0 0 1200 120"
-				style={{ position: "absolute", top: 0, left: 0 }}
+				preserveAspectRatio="none"
+				style={{
+					position: "absolute",
+					top: 0,
+					left: 0,
+					width: `${props.width}%`,
+					height: props.height,
+				}}
 			>
 				<path
 					style={{ fill: "white" }}
