@@ -50,6 +50,8 @@ export default function Edit(props) {
 					<Curve
 						width={props.attributes.topWidth}
 						height={props.attributes.topHeight}
+						flipX={props.attributes.topFlipX}
+						flipY={props.attributes.topFlipY}
 					/>
 				)}
 			</section>
