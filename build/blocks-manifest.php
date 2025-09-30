@@ -60,6 +60,10 @@ return array(
 			'topFlipY' => array(
 				'type' => 'boolean',
 				'default' => false
+			),
+			'topColor' => array(
+				'type' => 'string',
+				'default' => '#fff'
 			)
 		),
 		'textdomain' => 'blockylicious',

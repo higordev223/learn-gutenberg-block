@@ -30,7 +30,7 @@ export const Curve = (props) => {
 				}}
 			>
 				<path
-					style={{ fill: "white" }}
+					style={{ fill: props.color || "white" }}
 					d={props.flipY ? invertedPath : normalPath}
 				></path>
 			</svg>
