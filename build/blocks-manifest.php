@@ -64,6 +64,30 @@ return array(
 			'topColor' => array(
 				'type' => 'string',
 				'default' => '#fff'
+			),
+			'enableBottomCurve' => array(
+				'type' => 'boolean',
+				'default' => true
+			),
+			'bottomWidth' => array(
+				'type' => 'number',
+				'default' => 100
+			),
+			'bottomHeight' => array(
+				'type' => 'number',
+				'default' => 100
+			),
+			'bottomFlipX' => array(
+				'type' => 'boolean',
+				'default' => false
+			),
+			'bottomFlipY' => array(
+				'type' => 'boolean',
+				'default' => false
+			),
+			'bottomColor' => array(
+				'type' => 'string',
+				'default' => '#fff'
 			)
 		),
 		'textdomain' => 'blockylicious',
