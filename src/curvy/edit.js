@@ -52,6 +52,16 @@ export default function Edit(props) {
 						flipY={props.attributes.topFlipY}
 					/>
 				)}
+				{props.attributes.enableBottomCurve && (
+					<Curve
+						isBottom
+						color={props.attributes.bottomColor}
+						width={props.attributes.bottomWidth}
+						height={props.attributes.bottomHeight}
+						flipX={props.attributes.bottomFlipX}
+						flipY={props.attributes.bottomFlipY}
+					/>
+				)}
 			</section>
 			<InspectorControls>
 				<PanelBody title={__("Top curve", metadata.textdomain)}>
